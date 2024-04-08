@@ -1,7 +1,206 @@
-//QUEATION 24
-let name_1 : string = "ifra"
-let name_2 : string = "ifra bano"
-let name_3 : string = "ifra zahoor"
+//Question no 2
+//let personName="Eric";
+//console.log('hello' ,personName, "would you like to learn some typescripe to
+//Q3 Name cases
+//let personName: string ="ifra";
+//inlowercase
+//console.log("lowercase:", personName.toLowerCase());
+// in Uppercase
+//console.log("uppercase:", personName.toUpperCase());
+ //tittle case
+ //console.log("tittlecase:", personName.replace(/\b\w/g, c => c.toUpperCase()));
+//Q3 Name cases
+//let personName : string = "ifra";
+//in lowercase
+//console.log(personName.toLowerCase());
+//console.log(personName.toUpperCase());
+//task # 04
+ //let quote: string = ("“A person who never made a mistake never tried anything new.”");
+ //let author: string = ("Albert Einstein");
+//console.log(`${author} once said, ${quote}`);
+//Q5
+//let famousPerson= "Isaac Newton";
+//let quote: string = ("“A person who never made a mistake never tried anything new.”");
+//let message: string = (`${famousPerson} once said ${quote}`);
+//console.log(message);
+
+
+//Q6
+//let personName: String = "\t \n Ifra zahoor \n \t";
+//console.log("orignal:", personName);
+//console.log("stripped:", personName.trim());
+
+//task # 07-08
+ //console.log(5 + 3);
+ //console.log(10 - 2);
+ //console.log(4 * 2);
+ //console.log(16 / 2)
+
+ //Q9 fovorite Number: store your favorite number in a variable then, using that variable, creat a
+//let fav_number = 4;
+ //console.log("My favorite Number is : ", fav_number);
+ //Q9
+ //let fav_number = 24;
+ //console.log("My Favorite Number is : ", fav_number);
+ //fav_number = 24;
+//console.log("My Favorite Number is : ", fav_number);
+
+
+ //Question 10
+ //author: [ifra bano]
+ //date: [Monday , feburary 12 , 2024]
+
+ //task9: printing my favorite number.
+ //let favoriteNumber: number = 4;
+ // reveling my favorite number in a message formate.
+ //console.log(`My favorite number is ${favoriteNumber},`);
+
+ //Question 11
+ //let names : string [] = ["ifra","sharry","tabbssum","zahoor"];
+ //console.log(names[0]);
+ //console.log(names[1]);
+ //console.log(names[2]);
+ //console.log(names[3]);
+
+ //Question 12
+ //let names : string [] = ["ifra","sharjeel","tabbssum","zahoor"];
+
+ //let message : string  = " Do you like to play Cricket?"
+//console.log(names[0] + message )
+//console.log(names[1] + message )
+//console.log(names[2] + message )
+//console.log(names[3] + message )
+
+//Queation 13
+//let transportation : string [] = ["Honda motercycle","car","Bus","cycle"];
+//transportation.map((items) => console.log(`“I would like to own a” ${items}`));
+
+//Question 14
+//let guestlist = ["ifra","sharjeel","tabbssum","zahoor"];
+//guestlist.forEach(oneGuest => console.log(`salam ${oneGuest}, would you like to dinner with me?`));
+
+//Question 15
+//let guestArray : string [] = ["ifra","ayesha","isra","laiba"];
+//let canNOTAttend : string  = "Iqra";
+//let message : string = ("Can't not attend the Dinner");
+//console.log(canNOTAttend + " " + message);
+//let newGuestArray : string = "afshan"
+ //guestArray [guestArray.indexOf(canNOTAttend)] = newGuestArray;
+//guestArray.map((itmes) => console.log(`Dear ${itmes} you are invited to the Dinner`))
+
+//Question 16
+//let guestArray : string [] = ["ifra", "ayesha", "isra", "laiba"];
+//let canNOTAttend : string = "ayesha"
+//let newGuest : string = "Sharry"
+//guestArray [guestArray.indexOf(canNOTAttend)] = newGuest;
+//console.log(guestArray)
+//guestArray.map((items) =>
+//console.log(`Dear ${items}, i found a bigger Dinner table so I am invited more peoples.`));
+//part2
+//let begGuest : string = "sharjeel";
+  //guestArray.unshift((begGuest))
+ //console.log(guestArray);
+              // ------------part #3 Middle-----------
+  //let midGuest: string = "khushi";
+  //let middleIndex = (guestArray.length/ 3)
+  //guestArray.splice(middleIndex, 0, midGuest)
+ //console.log(guestArray);
+//              // ------------part #4 Appendend-----------
+//guestArray.push("Aliana")
+ //console.log(guestArray);
+//              // ------------part #5 new invitation messages-----------
+ //guestArray.map((items)=> console.log(`${items}, You are invited in themore category on dinner`))
+
+//Question 17
+//innitial list of guest 
+//let guest: string[] = ["Afshan" , "Iqra" , "Shehzen" , "zoha" , "Bisma"];
+//information that only two people can be invited
+//console.log("Due to limited space, only two people can be invited for Dinner");
+// Removing guest untill only two names remain
+//while(guest.length > 2) { 
+   // var removeGuest = guest.pop();
+    //    console.log(`Sorry, ${removeGuest}, you're no longer invited to dinner`);
+ //}
+// // print invitation to the remaining two guests
+ //guest.forEach((guests) => {
+   //console.log(`Dear, ${guests}, you're still invited to dinner.`)
+ //});
+// //           removing last two name  from the list
+ //guest.push();
+ //guest.push();
+//           printing the final list
+ //console.log("final guest list:", guest);
+ //Question 18
+// store the location in an array
+//let placeToVisite: string [] = ["tokyo" , "pakistan" , "america" , "china" , "japan"];
+// print the array in its original order
+//console.log("originalorder:" , placeToVisite);
+//print the array in alphabetical order without modifying the actual list
+//console.log("Alphabetical order:", [...placeToVisite].sort());
+//show that the array is still in its original order
+//console.log("original order after sorting:", placeToVisite);
+//Print array in Reverse Alphabetical Order.
+ //console.log(" Reverse Alphabetical order",[...placeTovisit].sort().reverse());
+// //        the array is still in its orignal order
+ //console.log("orignal order after reverse sorting", placeTovisit);
+// //       reverse order of the list 
+// placeTovisit.reverse();
+ //console.log("reverse order:", placeTovisit);
+// //  reverse the order of the list again to get back to the orignal order
+// placeTovisit.reverse();
+ //console.log("Back to orignal order", placeTovisit);
+// // sort the array in alphabetic order
+// placeTovisit.sort((a, b) => b.localeCompare (a))
+ //console.log("sorting in reverse alphabetic order", placeTovisit);
+
+ //Question19
+ //let invitation: string [] = ["Sharry", "Parri"];
+  //let count_invitation: number = invitation.length;
+  //console.log(`${count_invitation}, people will come to the dinner`);
+
+  //Question20
+  //let City: string[] = ["Islamabad", "Punjab", "Karachi", "Lahore", "Multan"];
+ //console.log("List of City:");
+ //console.log(City);
+
+ //Question 21
+ //let person: {name: string, fname: string, age: number} = {name:"ifra", fname: "female" ,age: 25}
+ //console.log(person)
+
+ //Question22
+ //let day: string[]= ["Monday", "Tuesday", "Wednesday", "Thusrday", "Friday", "Saturday", "Sunday", ]
+ //console.log(day{7});
+ //console.log(day[3]);
+
+ //Question 23
+//let car = "subaru";
+//console.log("is car == 'subaru'? predict true");
+//console.log(car == 'subaru');
+//console.log("is car != 'Honda city'? predict true");
+//console.log(car != 'Honda city');
+//console.log("Is car == 'subaru'? I predicted false")
+//console.log("car == 'subaru'")
+//console.log("is car == 'subaru'? predict true");
+//console.log(car == 'subaru');
+ //console.log("Is car === 'Sabaru'? I predicted False.")
+// console.log(car === 'Sabaru'); // false
+// console.log("Is car !== 'Cultus'? I predicted true.")
+// console.log(car !== 'Cultus'); // True
+// console.log("Is car !== 'subaru'? I predicted false.")
+// console.log(car !== 'subaru'); // false
+// console.log("Is car != 'V8'? I predicted true.")
+// console.log(car != 'V8'); // true
+// console.log("Is car !== 'subaru'? I predicted false.")
+// console.log(car !== 'subaru'); // false
+// console.log("Is car > 'mehran'? I predict true.");
+// console.log(car > 'mehran');  // true
+// console.log("Is car <= 'Ford'? I predict false.");
+// console.log(car <= 'Ford'); // false
+ 
+ //QUEATION 24
+//let name_1 : string = "ifra"
+//let name_2 : string = "ifra bano"
+//let name_3 : string = "ifra zahoor"
 
 //if (name_1 == name_3){
   //  console.log("names are equal")
